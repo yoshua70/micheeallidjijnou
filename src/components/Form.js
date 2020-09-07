@@ -9,7 +9,7 @@ import './../styles/Form.css';
 export default class Form extends React.Component {
   render() {
     return (
-      <form name="Contact form" method="POST" data-netlify="true" data-netlify-recaptcha="true" className="form">
+      <form name="Contact form" method="POST" data-netlify="true" className="form">
         <input type="hidden" name="form-name" value="Contact form"/>
         <div className="formGroup">
           <label className="formLabel">Votre Email: </label>
