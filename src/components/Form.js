@@ -21,7 +21,7 @@ export default class Form extends React.Component {
           <br></br>
           <input type="message" className="message"/>
         </div>
-        <Button onclick="javascript:this.parentNode.submit();" linkName="Envoyer"/>
+        <button type="submit" className="formBtn">Envoyer</button>
       </form>
     )
   }

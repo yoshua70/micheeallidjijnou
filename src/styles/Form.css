@@ -15,6 +15,11 @@
   font-size: 2rem;
 }
 
+.formBtn {
+  background-color: transparent;
+  border: 0.3rem solid #04049d;
+  padding: 1.5rem;
+}
 
 .message {
   height: 7rem;
