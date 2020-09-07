@@ -1,0 +1,28 @@
+.nav {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 5rem;
+  justify-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.nav__link {
+  color: #000000;
+  font-weight: 500;
+  padding-left: 1rem;
+  text-decoration: none;
+  /*
+  text-decoration: underline solid #2acdc1;
+  text-decoration-thickness: 20px;
+  */
+  text-transform: uppercase;
+}
+
+.nav__link:hover {
+  border-bottom: 0.5em solid #2acdc1;
+  color: #04049d;
+}
+
+
