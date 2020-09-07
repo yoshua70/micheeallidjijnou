@@ -1,0 +1,26 @@
+.form {
+  flex-grow: 1;
+
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.formGroup {
+  width: 100%;
+}
+
+.formLabel {
+  font-size: 2rem;
+}
+
+
+.message {
+  height: 7rem;
+  width: 80%;
+}
+
+.message, .email {
+  border: 0.2rem solid #04049d;
+}

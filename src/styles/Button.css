@@ -5,6 +5,10 @@
   margin-top: 40px;
 }
 
+.button:hover, .button:active {
+  cursor: pointer;
+}
+
 .label {
   text-decoration: none;
 }
