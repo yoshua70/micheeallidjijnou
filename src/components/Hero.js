@@ -13,7 +13,9 @@ export default class Hero extends React.Component {
             Michée Allidjinou,<br></br>
             développeur web fullstack.
           </h1>
-          <h2 className="h2--lead">basé en Côte d'Ivoire</h2>
+          {/*
+          <h2 className="h2--lead">amoureux de technologie, comics et rubik's cube</h2>
+          */}
         </div>
         <div className="call-to-actions">
           <Button linkTo="/about" linkName="En savoir plus"/>

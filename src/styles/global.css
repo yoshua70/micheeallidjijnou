@@ -50,6 +50,7 @@ h2 {
 .application {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   height: 100%;
   max-width: 900px;
   margin: 0 auto;

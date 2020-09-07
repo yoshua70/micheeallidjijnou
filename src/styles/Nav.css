@@ -5,6 +5,7 @@
   height: 5rem;
   justify-items: center;
   justify-content: space-between;
+  min-width: 0;
   padding: 1.5rem;
 }
 
