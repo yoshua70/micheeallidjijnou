@@ -1,6 +1,9 @@
-import React from "react"
-import { Helmet } from "react-helmet";
-import { JsonLd } from "./../components/JsonLd";
+import React from 'react'
+import { Helmet } from 'react-helmet';
+
+import { JsonLd } from './../components/JsonLd';
+import Layout from './../components/Layout';
+import Button from './../components/Button';
 
 import './../styles/global.css';
 
@@ -26,7 +29,11 @@ export default function Home() {
           }}
         </JsonLd>
       </Helmet>
-      <p>Hello, world!</p>
+      <Layout>
+        <h1 className="h1--lead">Michée Allidjinou,</h1>
+        <p className="p--lead">fullstack webdeveloper.</p>
+        <Button name="let's rock!" href="/contact"/>
+      </Layout>
     </div>
   )
 }

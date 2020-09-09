@@ -2,6 +2,9 @@ import React from "react"
 import { Helmet } from "react-helmet";
 import { JsonLd } from "./../components/JsonLd";
 
+import Layout from './../components/Layout';
+import Form from './../components/Form';
+
 export default function Contact() {
   return (
     <div className="application">
@@ -23,6 +26,10 @@ export default function Contact() {
           }}
         </JsonLd>
       </Helmet>
+      <Layout>
+        <h1 className="h1--lead">Contact</h1>
+        <Form/>
+      </Layout>
     </div>
   )
 }
