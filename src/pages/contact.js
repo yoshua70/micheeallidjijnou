@@ -2,12 +2,6 @@ import React from "react"
 import { Helmet } from "react-helmet";
 import { JsonLd } from "./../components/JsonLd";
 
-import NavBar from './../components/NavBar';
-import Footer from './../components/Footer';
-import Form from './../components/Form';
-
-import './../styles/Contact.css'
-
 export default function Contact() {
   return (
     <div className="application">
@@ -29,14 +23,6 @@ export default function Contact() {
           }}
         </JsonLd>
       </Helmet>
-      <NavBar/>
-      <div className="contact__content">
-        <h1 className="h1--lead">
-          Voulez-vous qu'on travaille ensemble? <br></br>Contactez moi!
-        </h1>
-        <Form/>
-      </div>
-      <Footer footerText="Made By Michée Allidjinou"/>
     </div>
   )
 }

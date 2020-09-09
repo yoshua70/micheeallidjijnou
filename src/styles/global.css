@@ -1,3 +1,8 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap');
+
+/* Reset */
 html {
   font-size: 62.5%;
   border: 0;
@@ -15,14 +20,14 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
+/* /Reset */
 
 body {
   background-color: #fff;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1.6rem;
   padding: 0;
   margin: 0;
- 
 }
 
 html, body, #___gatsby, #gatsby-focus-wrapper {
@@ -36,15 +41,6 @@ input, button, select {
 h1 {
   font-weight: 300;
   font-size: 2.4rem;
-}
-
-.h1--lead {
-  font-size: 5rem;
-}
-
-h2 {
-  font-weight: 300;
-  font-size: 2rem;
 }
 
 .application {
