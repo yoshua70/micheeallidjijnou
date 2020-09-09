@@ -6,7 +6,8 @@ import './../styles/Form.css';
 export default class Form extends React.Component {
   render() {
     return (
-      <form className="form" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+      <form className="form" name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact"/>
         <p>
           <label>
             Your Name: <br></br>
@@ -25,7 +26,6 @@ export default class Form extends React.Component {
             <textarea name="message"></textarea>
           </label>
         </p>
-        <div data-netlify-recaptcha="true"></div>
         <p>
           <Button type="submit" name="Send"/>
         </p>
