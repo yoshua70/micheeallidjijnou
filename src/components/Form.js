@@ -25,7 +25,7 @@ export default class Form extends React.Component {
             <textarea name="message"></textarea>
           </label>
         </p>
-        <div data-netlif-recaptcha="true"></div>
+        <div data-netlify-recaptcha="true"></div>
         <p>
           <Button type="submit" name="Send"/>
         </p>
