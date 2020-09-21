@@ -20,34 +20,23 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
-/* /Reset */
 
-body {
-  background-color: #fff;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 1.6rem;
+* {
   padding: 0;
   margin: 0;
 }
+/* /Reset */
 
-html, body, #___gatsby, #gatsby-focus-wrapper, .application {
-  height: 100%;
-} 
-
-input, button, select {
-  font-size: 1.3rem;
+body {
+  background-color: #f2f2f2;
+  font-family: 'Roboto Mono', monospace;
 }
 
-h1 {
-  font-size: 2.4rem;
+.nav__ul {
+  list-style: none;
+  text-align: right;
 }
 
-.h1--lead {
-  font-size: 5rem;
-}
-
-.p--lead {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
-  letter-spacing: 0.5rem;
+.nav__li {
+  display: inline;
 }
