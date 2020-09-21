@@ -28,7 +28,7 @@ html {
 /* /Reset */
 
 body {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -38,13 +38,4 @@ h1 {
 
 p, li {
   font-size: 1.5rem;
-}
-
-.nav__ul {
-  list-style: none;
-  text-align: right;
-}
-
-.nav__li {
-  display: inline;
 }

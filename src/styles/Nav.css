@@ -1,0 +1,27 @@
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem;
+}
+
+.nav__ul {
+  list-style: none;
+  text-align: right;
+}
+
+.nav__li {
+  display: inline;
+  margin-left: 2rem;
+}
+
+.nav__link {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #FF6584;
+  text-decoration: underline;
+}
