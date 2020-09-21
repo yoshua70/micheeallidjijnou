@@ -2,6 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet';
 
 import Layout from './../components/Layout';
+import Hero from './../components/Hero';
 import { JsonLd } from './../components/JsonLd';
 
 export default function Home() {
@@ -29,13 +30,16 @@ export default function Home() {
       </Helmet>
       <nav className="nav">
         <ul className="nav__ul">
-          <li className="nav__li"><a href="#">Home</a></li>
-          <li className="nav__li"><a href="#">Home</a></li>
-          <li className="nav__li"><a href="#">Home</a></li>
-          <li className="nav__li"><a href="#">Home</a></li>
+          <li className="nav__li">Home</li>
+          <li className="nav__li">Home</li>
+          <li className="nav__li">Home</li>
+          <li className="nav__li">Home</li>
         </ul>
       </nav>
-      <section className="hero"></section>
+      <Hero image="./web_developer.svg">
+        <h1 className="h1--hero">hello, world!</h1>
+        <p>visual studio code is a text editor for programmers.</p>
+      </Hero>
     </Layout>
   )
 }
