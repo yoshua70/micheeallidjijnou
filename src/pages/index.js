@@ -31,8 +31,11 @@ export default function Home() {
       </Helmet>
       <Nav/>
       <Hero image="./web_developer.svg">
-        <h1 className="h1--hero">hello, world!</h1>
-        <p>visual studio code is a text editor for programmers.</p>
+        <h1 className="h1--hero">
+          Hi!<br></br>
+          I'm Michée,<br></br>
+          front-end developer.
+        </h1>
       </Hero>
     </Layout>
   )

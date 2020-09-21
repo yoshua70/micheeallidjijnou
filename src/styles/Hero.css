@@ -6,9 +6,16 @@
 }
 
 .hero-content {
+  color: #FF6584;
   display: flex;
   flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   justify-content: center;
+}
+
+.hero-content h1 {
+  font-size: 64px;
 }
 
 .hero__svg {
