@@ -25,3 +25,7 @@
   color: #FF6584;
   text-decoration: underline;
 }
+
+.active {
+  border-bottom: 5px solid #6C63FF;;
+}
