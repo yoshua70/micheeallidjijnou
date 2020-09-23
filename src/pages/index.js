@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import Layout from './../components/Layout';
 import Hero from './../components/Hero';
 import Nav from './../components/Nav';
+import Button from './../components/Button';
 import { JsonLd } from './../components/JsonLd';
 
 export default function Home() {
@@ -31,11 +32,14 @@ export default function Home() {
       </Helmet>
       <Nav/>
       <Hero image="./web_developer.svg">
-        <h1 className="h1--hero">
-          Hi!<br></br>
-          I'm Michée,<br></br>
-          front-end developer.
-        </h1>
+        <div>
+          <h1 className="h1--hero">
+            Hi!<br></br>
+            I'm Michée,<br></br>
+            front-end developer.
+          </h1>
+          <Button>Contact me</Button>
+        </div>
       </Hero>
     </Layout>
   )
