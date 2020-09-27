@@ -32,14 +32,10 @@ export default function Home() {
       </Helmet>
       <Nav/>
       <Hero image="./web_developer.svg">
-        <div>
-          <h1 className="h1--hero">
-            Hi!<br></br>
-            I'm Michée,<br></br>
-            front-end developer.
-          </h1>
-          <Button>Contact me</Button>
-        </div>
+        <h1 className="h1--hero">
+          Hi! I'm Michée, front-end developer.
+        </h1>
+        <Button>Contact me</Button>
       </Hero>
     </Layout>
   )

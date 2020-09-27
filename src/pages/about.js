@@ -34,19 +34,17 @@ export default function About() {
       <Hero image="./startup_life.svg">
         <div>
           <h1 className="h1--hero">
-            Hi!<br></br>
-            I'm Michée,<br></br>
-            front-end developer.
+            About me.
           </h1>
           <br></br>
           <p className="p--hero">
-            It takes about <strong>0.05seconds</strong> for a user to form an opinion about your website. Let me make good use of that time with pratical and simple design for your website.
+            It takes about <span className="outstanding">0.05seconds</span> for a user to form an opinion about your website. Let me make good use of that time with pratical and simple design for your website.
           </p>
           <p className="p--hero">
-            I am in love with <strong>the web</strong> and everything related to computers in general.
+            I am in love with <span className="outstanding">the web</span> and everything related to computers in general.
           </p>
           <p className="p--hero">
-            Love to help other people build their <strong>dream project</strong> via the web. I build fast and responsive website with Gatsby and React.
+            Love to help other people build their <span className="outstanding">dream project</span> via the web. I build fast and responsive website with Gatsby and React.
           </p>
           <br></br>
           <Button>Contact me</Button>

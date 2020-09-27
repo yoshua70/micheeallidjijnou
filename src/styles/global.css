@@ -39,3 +39,8 @@ h1 {
 p, li {
   font-size: 1.5rem;
 }
+
+.outstanding {
+  font-weight: bold;
+  font-size: 1.8rem;
+}

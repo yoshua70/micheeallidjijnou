@@ -12,9 +12,10 @@
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   justify-content: center;
+  width: 100%;
 }
 
-.hero-content h1 {
+.h1--hero {
   font-size: 64px;
 }
 
