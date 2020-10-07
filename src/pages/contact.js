@@ -5,6 +5,7 @@ import Layout from './../components/Layout';
 import Hero from './../components/Hero';
 import Nav from './../components/Nav';
 import Button from './../components/Button';
+import Form from './../components/Form';
 import { JsonLd } from './../components/JsonLd';
 
 export default function Contact() {
@@ -37,7 +38,7 @@ export default function Contact() {
         </h1>
         <br></br>
         <br></br>
-        <Button type="submit">Send</Button>
+        <Form/>
       </Hero>
     </Layout>
   )
