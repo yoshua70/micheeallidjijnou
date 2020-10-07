@@ -47,7 +47,7 @@ export default function About() {
             Love to help other people build their <span className="outstanding">dream project</span> via the web. I build fast and responsive website with Gatsby and React.
           </p>
           <br></br>
-          <Button>Contact me</Button>
+          <Button link="/contact">Contact me</Button>
         </div>
       </Hero>
     </Layout>

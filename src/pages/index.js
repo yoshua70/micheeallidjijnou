@@ -35,7 +35,7 @@ export default function Home() {
         <h1 className="h1--hero">
           Hi! I'm Michée, front-end developer.
         </h1>
-        <Button>Contact me</Button>
+        <Button link="contact">Contact me</Button>
       </Hero>
     </Layout>
   )

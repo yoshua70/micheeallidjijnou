@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 import Layout from './../components/Layout';
 import Hero from './../components/Hero';
 import Nav from './../components/Nav';
-import Button from './../components/Button';
+// import Button from './../components/Button';
 import Form from './../components/Form';
 import { JsonLd } from './../components/JsonLd';
 
